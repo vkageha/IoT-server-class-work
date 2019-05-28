@@ -12,7 +12,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 
-app.use("/alldevices",  mainRoutes.classworktesthandler);
+app.use("/alldevices",  mainRoutes);
+
+
 
 
 app.use((req,res)=> {
