@@ -1,0 +1,26 @@
+{
+  "name": "valentine",
+  "version": "1.0.0",
+  "description": "class work",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkageha/IoT-server-class-work.git"
+  },
+  "author": "VALENTINE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkageha/IoT-server-class-work/issues"
+  },
+  "homepage": "https://github.com/vkageha/IoT-server-class-work#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "mongoose": "^5.5.11",
+    "morgan": "^1.9.1"
+  }
+}
